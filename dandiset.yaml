@@ -133,7 +133,14 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002092/versions/draft/assets/
 name: "'Theta-paced stimulation of the thalamic nucleus reuniens entrains mPFC-HPC
   oscillations and facilitates the acquisition of extinction memories' data"
-relatedResource: []
+relatedResource:
+- identifier: 10.1016/j.brs.2025.11.011
+  name: Theta-paced stimulation of the thalamic nucleus reuniens entrains mPFC-HPC
+    oscillations and facilitates the acquisition of extinction memories
+  relation: dcite:IsCitedBy
+  repository: Brain Stimulation
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
