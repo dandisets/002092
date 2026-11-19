@@ -39,8 +39,8 @@ assetsSummary:
   - ProcessingModule
 citation: Tuna, Tugce; Mourão, Flávio; Maren, Stephen (2026) 'Theta-paced stimulation
   of the thalamic nucleus reuniens entrains mPFC-HPC oscillations and facilitates
-  the acquisition of extinction memories' data (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/002092/draft
+  the acquisition of extinction memories' data (Version 0.261119.2120) [Data set].
+  DANDI Archive. https://doi.org/10.48324/dandi.002092/0.261119.2120
 contributor:
 - affiliation:
   - identifier: https://ror.org/047426m28
@@ -89,6 +89,7 @@ contributor:
   - dcite:FundingAcquisition
   schemaKey: Person
 dateCreated: '2026-11-17T15:36:36.042430+00:00'
+datePublished: '2026-11-19T21:20:14.290465+00:00'
 description: 'This dataset contains electrophysiological recordings from the medial
   prefrontal cortex (both prelimbic and infralimbic cortices) and hippocampus (dorsal
   CA1 region) in adult Long-Evans rats (n = 8). The medial prefrontal cortex and hippocampus
@@ -103,6 +104,7 @@ description: 'This dataset contains electrophysiological recordings from the med
   9-16 corresponded to the prelimbic cortex, and Channels 17-32 corresponded to the
   hippocampus. For details about recording techniques and sessions, please refer to
   Tuna et al. (2025): https://doi.org/10.1016/j.brs.2025.11.011.'
+doi: 10.48324/dandi.002092/0.261119.2120
 ethicsApproval:
 - contactPoint:
     email: animalcompliance@tamu.edu
@@ -117,7 +119,7 @@ ethicsApproval:
     url: http://iacuc.research.illinois.edu/
   identifier: '24107'
   schemaKey: EthicsApproval
-id: DANDI:002092/draft
+id: DANDI:002092/0.261119.2120
 identifier: DANDI:002092
 keywords:
 - 'electrophysiology '
@@ -130,9 +132,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002092/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002092/0.261119.2120/assets.yaml
 name: "'Theta-paced stimulation of the thalamic nucleus reuniens entrains mPFC-HPC
   oscillations and facilitates the acquisition of extinction memories' data"
+publishedBy:
+  endDate: '2026-11-19T21:20:14.290465+00:00'
+  id: urn:uuid:eb453fe0-534a-4f11-8d2e-5886d3f2884a
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-19T21:20:14.290465+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:d3cbc3e3-49df-4a50-a753-b97ba8ffa694
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1016/j.brs.2025.11.011
   name: Theta-paced stimulation of the thalamic nucleus reuniens entrains mPFC-HPC
@@ -144,6 +158,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002092/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002092/0.261119.2120
+version: 0.261119.2120
 wasGeneratedBy: []
